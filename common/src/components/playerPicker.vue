@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <div v-on:click="select" class="row">
-      <div class="left">请选择音乐</div>
+      <div class="left">请选择音乐1111</div>
       <div class="right">{{text}}</div>
     </div>
     <template v-if="audio">
