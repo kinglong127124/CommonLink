@@ -1,16 +1,15 @@
 <template>
   <div class="hello">
     <h1 style="text-align: center;">{{ msg }}</h1>
-    <player-picker :audios="audios"></player-picker>
+    <kl-player-picker :audios="audios"></kl-player-picker>
   </div>
 </template>
 
 <script>
-import { playerPicker } from 'common'
+  // import { playerPicker } from 'common'
 
 export default {
   name: 'HelloWorld',
-  components: { playerPicker },
   props: {
 
   },
